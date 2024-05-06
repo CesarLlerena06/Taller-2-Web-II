@@ -1,0 +1,31 @@
+.gridContenedor{
+    display: grid;
+    grid-template-areas: "Header Header"
+                         " Nav Content"
+                         "Nav Footer"
+;
+grid-template-columns: 20% auto;
+grid-template-rows: 200px 400px 200px;
+}
+
+
+.itemUno{
+    grid-area: Header;
+    background-color: red;
+}
+
+.itemDos{
+    grid-area: Nav;
+    background-color: yellow;
+}
+
+.itemTres{
+    grid-area: Content;
+    background-color: greenyellow;
+}
+
+.itemCuatro{
+    grid-area: footer;
+    background-color: aquamarine;
+
+}

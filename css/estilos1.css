@@ -1,0 +1,35 @@
+.gridContenedor{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 200px 400px 200px;
+    background-color: aqua;
+}
+
+.gridContenedor > div{
+    background-color: blue;
+    text-align: center;
+    color: black;
+    
+}
+
+.gridItemUno{
+
+    grid-column: 1 / span 3;
+}
+
+.gridItemDos{
+
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 4;
+}
+
+.gridItemTres{
+
+    grid-column: 2 / span 2;
+}
+
+.gridItemCuatro{
+
+    grid-column: 2 / span 2;
+}
+

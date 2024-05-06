@@ -1,0 +1,44 @@
+:root{
+
+    --azul: #1C1678;
+    --verde: #167830;
+}
+
+h1{
+    color: var(--azul);
+}
+
+a{
+    color: var(--verde);
+}
+
+p{
+    color: rgb(13, 17, 17);
+}
+
+.configuracionP {
+    color: rgb(255, 34, 0);
+}
+
+#configuracionP2{
+    color: blue;
+}
+
+.configuracionP3 {
+    color: rgb(255, 0, 187);
+}
+
+.flexContenedor1{
+    display: flex;
+    justify-content: center;
+}
+
+.colorDivPadre{
+    background-color: #3f737a;
+}
+
+.flexContenedorVertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

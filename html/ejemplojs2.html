@@ -1,0 +1,24 @@
+<script>
+
+frace = prompt("Dijite una frace").toLowerCase()
+
+cantidadAEnFrace = 0
+
+for(let i= 0; i < frace.length; i++){
+
+
+    if (!(frace.charAt(i) == "a" ||
+       frace.charAt(i) == "e" || 
+       frace.charAt(i) == "i" || 
+       frace.charAt(i) == "o" ||
+       frace.charAt(i) == "u"))
+
+
+    cantidadAEnFrace++
+
+    console.log(frace.charAt(i))
+}
+
+console.log("el numero de a es " + cantidadAEnFrace)
+
+</script>
